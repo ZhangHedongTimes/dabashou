@@ -1,0 +1,96 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#007aff",
+				"enablePullDownRefresh":true//开启下拉刷新
+			}
+		},
+		{
+			"path" : "pages/me/me",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心"
+			}
+		},
+		{
+			"path" : "pages/message/message",
+			"style" : 
+			{
+				"navigationBarTitleText" : "消息"
+			}
+		},
+		{
+			"path" : "pages/find/find",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发现"
+			}
+		},
+		{
+			"path" : "pages/publish/publish",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发布"
+			}
+		}
+	],
+	// 全局设置
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app x",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#ff0000",
+		"backgroundColor": "#ffffff",
+		
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/icon/home_0.png",
+				"selectedIconPath": "/static/icon/home_1.png"
+			},
+			{
+				"text": "发现",
+				"pagePath": "pages/find/find",
+				"iconPath": "/static/icon/find_0.png",
+				"selectedIconPath": "/static/icon/find_1.png"
+			},
+			{
+				"text": "发布",
+				"pagePath": "pages/publish/publish",
+				"iconPath": "/static/icon/publish_0.png",
+				"selectedIconPath": "/static/icon/publish_1.png"
+				
+			},
+			{
+				"text": "消息",
+				"pagePath": "pages/message/message",
+				"iconPath": "/static/icon/message_0.png",
+				"selectedIconPath": "/static/icon/message_1.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/me/me",
+				"iconPath": "/static/icon/me_0.png",
+				"selectedIconPath": "/static/icon/me_1.png"
+			}
+		]
+		// "midButton": {
+		// 			"width": "80px",
+		// 			"height": "50px",
+		// 			"text": "文字",
+		// 			"iconPath": "/static/icon/publish_0.png",
+		// 			"iconWidth": "24px"
+		// 			// "backgroundImage": "static/image/midButton_backgroundImage.png"
+		// 		}
+	}
+	
+}

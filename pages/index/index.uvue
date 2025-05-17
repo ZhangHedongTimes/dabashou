@@ -1,0 +1,32 @@
+<template>
+	<uni-drawer></uni-drawer>
+	<view class="box">
+		<view> 
+		从基础开始 
+		</view>
+	
+	</view>
+</template>
+
+<script>
+	export default {
+
+	}
+</script>
+
+<style lang="scss">
+	.box {
+		// width: 400rpx;
+		// height: 400rpx;
+		background: aqua;
+
+		h1 {
+			font-size: 40px;
+			color:black;
+			.row{
+				font-size: 65px;
+				font-style: italic;
+			}
+		}
+	}
+</style>
